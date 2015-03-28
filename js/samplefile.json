@@ -1,0 +1,54 @@
+
+{
+"foods": {
+"0": {
+    "name": "hamburger",
+    "color": "grey",
+    "shape": "round"
+},
+"1": {
+    "name": "pasta",
+    "color": "cream",
+    "shape": "spiral"
+},
+"2": {
+    "name": "ice cream",
+    "color": "multi",
+    "shape": "round"
+},
+"3": {
+    "name": "granola bar",
+    "color": "brownish",
+    "shape": "rectangle"
+    }
+  }
+}
+
+//from jsonlint:
+
+{
+    "foods": {
+        "0": {
+            "name": "hamburger",
+            "color": "grey",
+            "shape": "round"
+        },
+        "1": {
+            "name": "pasta",
+            "color": "cream",
+            "shape": "spiral"
+        },
+        "2": {
+            "name": "ice cream",
+            "color": "multi",
+            "shape": "round"
+        },
+        "3": {
+            "name": "granola bar",
+            "color": "brownish",
+            "shape": "rectangle"
+        }
+    }
+}
+
+

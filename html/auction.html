@@ -6,7 +6,7 @@
   <title>SM2-Home</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <link href='http://fonts.googleapis.com/css?family=Corben:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="../css/home.css">
+  <link rel="stylesheet" href="../css/auction.css">
 </head>
 
 <body>
@@ -20,7 +20,11 @@
 </div>
 <div class="row">
     <div class="col-md-2 lt-blue top-height"></div>
-    <div class="col-md-4 white left-curve"><img src="../images/savings-multiplied-logo.png"></div>
+    <div class="col-md-4 white top-height left-curve">
+        <div class="logo">
+            <img src="../images/savings-multiplied-logo.png">
+        </div>
+    </div>
     <div class="col-md-4 white top-height right-curve">
         <div class="row buttons-tagline">
             <p>
@@ -73,17 +77,16 @@
 
 <div class="part-two">
     <div class="row">
-        <div class="col-md-2 dk-blue another-height">
+        <div class="col-md-2 dk-blue another-height move-left">
         </div>
         <div class="col-md-3 white another-height left-curve2">
-            <!-- <form class="custom-form"> -->
-            <div class="custom-form">
+            <form class="custom-form right-curve left-curve right-curve2 left-curve2">
                     <h4 class="center-it">Limit your search by:</h4>
-                    <div class="input-group">
+                    <div class="input-group twenty-pix">
                         <input type="text" class="form-control" aria-describedby="basic-addon2">
                         <span class="input-group-addon" id="basic-addon2">Search</span>
                     </div>
-                    <div class="radio">
+                    <div class="radio twenty-pix">
                       <label for="condition">Condition:</label>
                         <label>
                           <input type="radio" name="conditionRadios" id="new" value="option1">
@@ -94,7 +97,7 @@
                             Gently Used
                         </label><br>
                     </div>
-                    <div class="radio">
+                    <div class="radio twenty-pix">
                     <label for="chooseSeason">Size:</label><br>
                         <label>
                           <input type="radio" name="sizeRadios" id="size4" value="option1">
@@ -130,7 +133,7 @@
                         </label>
                     </div>
 
-                    <div class="radio">
+                    <div class="radio twenty-pix">
                         <label for="chooseSeason">Season:</label><br>
                             <label>
                               <input type="radio" name="seasonRadios" id="all-seasons" value="option1">
@@ -153,7 +156,7 @@
                                 Winter
                             </label>
                     </div>
-                    <div class="radio">
+                    <div class="radio twenty-pix">
                         <label for="chooseType">Type:</label><br>
                             <label>
                               <input type="radio" name="typeRadios" id="any" value="option1">
@@ -185,10 +188,20 @@
                             <li><a href="#">Separated link</a></li>
                           </ul>
                     </div>
-            <!-- </form>   -->
-            </div>
+                    <div class="slider">
+                      <label for="minPrice">Minimum Price</label>
+                      <input type="range" min=0 max=500 value=25 id="minPrice" step="10" oninput="sliderStuff.outputUpdate(value, id)">
+                      <output for ="minPrice" id="js-minPrice">25</output>
+                    </div>
+                    <div class="slider">
+                      <label for="maxPrice">Maximum Price</label>
+                      <input type="range" min=0 max=500 value=25 id="maxPrice" step="10" oninput="sliderStuff.outputUpdate(value, id)">
+                      <output for="maxPrice" id="js-maxPrice">25</output>
+                    </div>
+            </form>
+            
         </div>
-        <div class="col-md-5 white another-height right-curve2">
+        <div class="col-md-5 white another-height green-words right-curve2">
             <div class="row bumpit-down">
                 <div class="col-sm-6 col-md-6">
                     <h3>All > Twin > BG</h3><br>
@@ -212,50 +225,13 @@
                     </div>
                 </div>
             </div>
-            <div class="row box-decorating">
-                <div class="col-sm-3 col-md-3">
-                    <img src="http://placehold.it/100x100"><p>Sailor Suits $15.00</p><p>Jane Joe&nbsp;&nbsp;&nbsp;4 hours</p>
-                </div>
-                <div class="col-sm-3 col-md-3">
-                    <img src="http://placehold.it/100x100"><p>Sailor Suits $15.00</p><p>Jane Joe&nbsp;&nbsp;&nbsp;4 hours</p>
-                </div>
-                <div class="col-sm-3 col-md-3">
-                    <img src="http://placehold.it/100x100"><p>Sailor Suits $15.00</p><p>Jane Joe&nbsp;&nbsp;&nbsp;4 hours</p>
-                </div>
-                <div class="col-sm-3 col-md-3">
-                    <img src="http://placehold.it/100x100"><p>Sailor Suits $15.00</p><p>Jane Joe&nbsp;&nbsp;&nbsp;4 hours</p>
-                </div>
+            <div id="majorDiv" class="row">
             </div>
-            <div class="row">
-                <div class="col-sm-3 col-md-3">
-                    <img src="http://placehold.it/100x100"><p>Sailor Suits $15.00</p><p>Jane Joe&nbsp;&nbsp;&nbsp;4 hours</p>
-                </div>
-                <div class="col-sm-3 col-md-3">
-                    <img src="http://placehold.it/100x100"><p>Sailor Suits $15.00</p><p>Jane Joe&nbsp;&nbsp;&nbsp;4 hours</p>
-                </div>
-                <div class="col-sm-3 col-md-3">
-                    <img src="http://placehold.it/100x100"><p>Sailor Suits $15.00</p><p>Jane Joe&nbsp;&nbsp;&nbsp;4 hours</p>
-                </div>
-                <div class="col-sm-3 col-md-3">
-                    <img src="http://placehold.it/100x100"><p>Sailor Suits $15.00</p><p>Jane Joe&nbsp;&nbsp;&nbsp;4 hours</p>
-                </div>
-            </div>
-                <div class="row">
-                <div class="col-sm-3 col-md-3">
-                    <img src="http://placehold.it/100x100"><p>Sailor Suits $15.00</p><p>Jane Joe&nbsp;&nbsp;&nbsp;4 hours</p>
-                </div>
-                <div class="col-sm-3 col-md-3">
-                    <img src="http://placehold.it/100x100"><p>Sailor Suits $15.00</p><p>Jane Joe&nbsp;&nbsp;&nbsp;4 hours</p>
-                </div>
-                <div class="col-sm-3 col-md-3">
-                    <img src="http://placehold.it/100x100"><p>Sailor Suits $15.00</p><p>Jane Joe&nbsp;&nbsp;&nbsp;4 hours</p>
-                </div>
-                <div class="col-sm-3 col-md-3">
-                    <img src="http://placehold.it/100x100"><p>Sailor Suits $15.00</p><p>Jane Joe&nbsp;&nbsp;&nbsp;4 hours</p>
-                </div>
+
+ 
             </div>
         </div>
-        <div class="col-md-2 dk-blue bottom-height">
+        <div class="col-md-2 dk-blue">
         </div>
     </div>
     <div class="row">
@@ -276,9 +252,10 @@
 
 
 
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script src="../js/home.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/auction.js"></script>
 </body>
 
 </html>

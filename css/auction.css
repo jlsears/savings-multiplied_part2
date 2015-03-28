@@ -27,6 +27,10 @@
     background-color: #8db639;
 }
 
+.green-words {
+    color: #8db639;
+}
+
 .dk-purp {
     background-color: #6F1549;
 }
@@ -46,11 +50,11 @@ TOP Section
 }
 
 .buttons-tagline {
-    margin-top: 115px;
+    margin-top: 90px;
 }
 
 .top-height {
-    height: 200px;
+    height: 170px;
 }
 
 .right-curve {
@@ -60,6 +64,11 @@ TOP Section
 .left-curve {
     border-top-left-radius: 50px;
 }
+
+.logo {
+    margin-top: -45px;
+}
+
 
 /****************************
 BUTTONS
@@ -117,12 +126,12 @@ BELOW NAV BAR
     float: right;
 }
 
-/*.another-height {
-    height: 530px;
+.to-left {
+    float: left;
 }
 
-.bottom-height {
-    height: 600px;
+.another-height {
+    height: 1030px;
 }
 
 .sm-bottom-height {
@@ -134,21 +143,41 @@ BELOW NAV BAR
 }
 
 .bumpit-down {
-    margin-bottom: 5px;
-}*/
+    margin-bottom: 40px;
+}
 
+.another-list {
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.the-right {
+    text-align: right;
+}
+
+.the-left {
+    text-align: left;
+}
+
+.justify-it {
+    text-align: justify;
+}
 
 /****************************
 FORM
 ****************************/
 
-form body {
+/*form body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #8db639;
   background-color: gray;
-}
+}*/
 
 
 
@@ -165,13 +194,23 @@ form body {
 }*/
 
 .custom-form {
-    background-color: gray;
+    background-color: #edf9d3;
     color: #8db639;
-    margin-top 10px;
+    max-width: 75%;
+    height: 950px;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    margin-left: 45px;
 }
 
 .move-over {
     padding-left: 10px;
+}
+
+.twenty-pix {
+    margin-bottom: 20px;
 }
 
 
@@ -189,6 +228,7 @@ BOTTOM OF PAGE
 .link-list {
     display: inline-block;
     text-decoration: none;
+    margin-top: 30px;
 }
 
 .bottom {
@@ -209,4 +249,12 @@ li {
 .left-curve2 {
     border-bottom-left-radius: 50px;
 }
+
+.auction-size {
+    height: 175px;
+    max-width: 175px;
+    margin: 20px 0;
+}
+
+
 
